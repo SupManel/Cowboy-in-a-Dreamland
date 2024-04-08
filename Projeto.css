@@ -48,3 +48,17 @@ section {
     width: 100%;
     display: block;
 }
+
+.header {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.links {
+    text-align: right;
+    display: grid;
+}

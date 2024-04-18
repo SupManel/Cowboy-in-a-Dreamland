@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Verdana, Tahoma;
+    margin: 0;
+    font-size: 16px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+p, ul, li {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.centro {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: green;
+    font-weight: 800;
+    transition: all .5s;
+}
+
+header nav ul li a:hover {
+    color: darkgreen;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.fa-solid {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+body h2 {
+    text-transform: none;
+}
+
+footer a {
+    text-decoration: none;
+    font-size:x-large
+}
+
+main .imagem {
+    text-align: center;
+    max-width: fit-content;
+    align-items: auto;
+    width: 100%;
+}
+
+.imagem {
+    width: 100%;
+}
